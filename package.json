@@ -1,0 +1,22 @@
+{
+  "name": "promise-aplus",
+  "version": "1.0.0",
+  "description": "An implementation of Promise/A+",
+  "main": "index.js",
+  "scripts": {
+    "test": "promises-aplus-tests ./src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liwenone/promise-aplus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liwenone/promise-aplus/issues"
+  },
+  "homepage": "https://github.com/liwenone/promise-aplus#readme",
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  }
+}
