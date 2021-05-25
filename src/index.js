@@ -171,7 +171,7 @@ class Promise {
     return new Promise((resolve, reject) => {
       list.forEach(p => {
         Promise.reject(p).then(() => {
-          if (counter === list.length) {
+          if (++counter === list.length) {
             resolve()
           }
         }, reject)
